@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         .hero {
-            background-image: url('https://images.unsplash.com/photo-1558611848-73f7eb4001a1?fit=crop&w=1950&q=80');
+            background-image: linear-gradient(rgba(45, 2, 49, 0.8),rgb(26, 26, 46, 0.8)), url(https://images.unsplash.com/photo-1558611848-73f7eb4001a1?fit=crop&w=1950&q=80);
             background-size: cover;
             background-position: center;
             height: 500px;
@@ -25,6 +25,9 @@
         }
         .navbar {
             background-color: #1A1A2E;
+        }
+        .navbar li{
+            font-family: 'Poppins', sans-serif;
         }
         footer {
             background-color: #1A1A2E;
@@ -57,7 +60,7 @@
 <!-- Hero Section -->
 <section class="hero">
     <div class="text-center">
-        <h1 class="display-4">Welcome to FitLife</h1>
+        <h1 class="display-4">Welcome to Sets n'Reps</h1>
         <p class="lead">Train. Transform. Triumph.</p>
     </div>
 </section>
